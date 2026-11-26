@@ -539,7 +539,6 @@ textarea:focus-visible {
   mask: var(--field-icon) center / contain no-repeat;
 }
 
-/* Условные пути: нужны соответствующие SVG-изображения. */
 .feedback-form__icon--user {
   --field-icon: url("img/user.svg");
 }

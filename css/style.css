@@ -2,8 +2,9 @@
    1. ШРИФТ И ОБЩИЕ ПЕРЕМЕННЫЕ
    ================================================== */
 
-/* Для загрузки шрифта требуется интернет. */
+/* Для загрузки шрифта требуется интернет. 
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+*/
 
 :root {
   --color-background: #fff5f0;
@@ -540,19 +541,19 @@ textarea:focus-visible {
 
 /* Условные пути: нужны соответствующие SVG-изображения. */
 .feedback-form__icon--user {
-  --field-icon: url("images/icon-user.svg");
+  --field-icon: url("img/user.svg");
 }
 
 .feedback-form__icon--phone {
-  --field-icon: url("images/icon-phone.svg");
+  --field-icon: url("img/phone.svg");
 }
 
 .feedback-form__icon--email {
-  --field-icon: url("images/icon-email.svg");
+  --field-icon: url("img/email.svg");
 }
 
 .feedback-form__icon--pencil {
-  --field-icon: url("images/icon-pencil.svg");
+  --field-icon: url("img/pen.svg");
 }
 
 .feedback-form__submit {
